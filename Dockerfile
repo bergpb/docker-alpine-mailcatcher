@@ -4,7 +4,7 @@ LABEL maintainer="spaquet74@gmail.com" \
     description="Debug SMTP with style using mailcatcher"
 
 # Mailcatcher version
-ARG MAILCATCHER_VERSION=0.8.1
+ARG MAILCATCHER_VERSION=0.8.2
 
 # Setting the environment defaults to en_US.UTF-8
 # --message-limit default value is 50
