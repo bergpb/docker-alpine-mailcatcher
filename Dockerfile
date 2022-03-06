@@ -28,4 +28,4 @@ EXPOSE 1025 1080
 
 # launch mailcatcher as a foreground process
 # Using sh to enable string interpolation
-CMD ["sh", "-c", "mailcatcher --foreground --smtp-port=1025 --http-port=1080 --ip=0.0.0.0 --messages-limit=$MAIL_LIMIT"]
+CMD ["sh", "-c", "mailcatcher --no-quit --foreground --smtp-port=1025 --http-port=1080 --ip=0.0.0.0 --messages-limit=$MAIL_LIMIT"]
